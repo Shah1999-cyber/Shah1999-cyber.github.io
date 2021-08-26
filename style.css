@@ -1,0 +1,930 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(black,#00365c,#00365c,#00365c);
+	background-position: cover;
+	position: relative;
+	overflow-x: hidden;
+
+}
+.navigation{
+	background:transparent;
+	width:100%;
+	height:60px;
+
+
+
+
+
+
+}
+.unorder {
+	color: white;
+}
+.sea{
+	height: 300px;
+	width: 500%;
+	display: block;
+	background-image: url(img.jpg);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+	background-repeat: repeat-x;
+	animation:sea  200s linear infinite;
+
+}
+@keyframes sea{
+	100% {
+		transform: translateX(-3400px);
+	}
+
+
+}
+.moon{
+	     position: absolute;
+   		 margin: auto;
+    	 top: 0;
+   		 right: 0;
+   		 bottom: 400px;
+   		 left: 60%;
+   		 width: 80px;
+   		 height: 80px;
+   		 background-color:transparent;
+   		 border-radius: 50%;
+  		 box-shadow: 25px 10px 10px 10px antiquewhite;
+  		 background-repeat: repeat-x;
+	     animation: moon 43200s linear infinite;
+}
+@keyframes moon{
+	100% {
+		transform: translateX(-3400px);
+	}
+}
+.stars {
+    background-color: white;
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+ .star-1 {
+ 	height: 5px;
+ 	width:5px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 500px;
+    left: -95%;
+    animation-name: twinkle-1;
+    animation-duration: 1s;
+  }
+
+  .star-2 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 400px;
+    left: -90%;
+    animation-name: twinkle-2;
+    animation-duration: 0s;
+  }
+  .star-3 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 300px;
+    left: -85%;
+    animation-name: twinkle-3;
+    animation-duration: 2s;
+  }
+
+  .star-4 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 200px;
+    left: -80%;
+    animation-name: twinkle-4;
+    animation-duration: 4s;
+  }
+  .star-5 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom:100px;
+    left: -75%;
+    animation-name: twinkle-5;
+    animation-duration:6s;
+  }
+
+  .star-6 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom:0px;
+    left: -70%;
+    animation-name: twinkle-6;
+    animation-duration:8s;
+  }
+  .star-7 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 10px;
+    left: -65%;
+    animation-name: twinkle-7;
+    animation-duration:10s;
+  }
+
+  .star-8 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 110px;
+    left: -60%;
+    animation-name: twinkle-8;
+    animation-duration: 0s;
+  }
+  .star-9 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 210px;
+    left: -55%;
+    animation-name: twinkle-9;
+    animation-duration: 2s;
+  }
+
+  .star-10 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 310px;
+    left: -50%;
+    animation-name: twinkle-10;
+    animation-duration: 4s;
+  }
+  .star-11 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 410px;
+    left: -45%;
+    animation-name: twinkle-11;
+    animation-duration: 6s;
+  }
+
+  .star-12 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 20px;
+    left: -40%;
+    animation-name: twinkle-12;
+    animation-duration: 8s;
+  }
+  .star-13 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 120px;
+    left: -35%;
+    animation-name: twinkle-13;
+    animation-duration:10s;
+  }
+
+  .star-14 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 220px;
+    left: -30%;
+    animation-name: twinkle-14;
+    animation-duration: 0s;
+  }
+  .star-15 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 320px;
+    left: -25%;
+    animation-name: twinkle-15;
+    animation-duration: 2s;
+  }
+
+  .star-16 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 420px;
+    left: -20%;
+    animation-name: twinkle-16;
+    animation-duration: 4s;
+  }
+  .star-17 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 30px;
+    left: -15%;
+    animation-name: twinkle-17;
+    animation-duration: 6s;
+  }
+
+  .star-18 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 130px;
+    left: -10%;
+    animation-name: twinkle-18;
+    animation-duration: 8s;
+  }
+  .star-19 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 230px;
+    left: -5%;
+    animation-name: twinkle-19;
+    animation-duration:10s;
+  }
+
+  .star-20 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 330px;
+    left:0%;
+    animation-name: twinkle-20;
+    animation-duration:0s;
+  }
+  .star-21 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 430px;
+    left: 40%;
+    animation-name: twinkle-21;
+    animation-duration: 2s;
+  }
+
+  .star-22 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 40px;
+    left: 50%;
+    animation-name: twinkle-22;
+    animation-duration: 4s;
+  }
+  .star-23 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 140px;
+    left: 45%;
+    animation-name: twinkle-23;
+    animation-duration: 6s;
+  }
+
+  .star-24 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 240px;
+    left: 55%;
+    animation-name: twinkle-24;
+    animation-duration: 8s;
+  }
+  .star-25 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 340px;
+    left: 60%;
+    animation-name: twinkle-25;
+    animation-duration:10s;
+  }
+
+  .star-26 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 440px;
+    left: 70%;
+    animation-name: twinkle-26;
+    animation-duration: 0s;
+  }
+  .star-27 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 50px;
+    left: 80%;
+    animation-name: twinkle-27;
+    animation-duration: 2s;
+  }
+
+  .star-28 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 150px;
+    left: 90%;
+    animation-name: twinkle-28;
+    animation-duration: 4s;
+  }
+  .star-29 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 250px;
+    left: 30%;
+    animation-name: twinkle-29;
+    animation-duration: 6s;
+  }
+
+  .star-30 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 350px;
+    left: 95%;
+    animation-name: twinkle-30;
+    animation-duration: 8s;
+  }
+  .star-31 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 450px;
+    left: 20%;
+    animation-name: twinkle-31;
+    animation-duration:10s;
+  }
+
+  .star-32 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 60px;
+    left: 10%;
+    animation-name: twinkle-32;
+    animation-duration: 0s;
+  }
+  .star-33 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 160px;
+    left:5%;
+    animation-name: twinkle-33;
+    animation-duration: 2s;
+  }
+
+  .star-34 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 260px;
+    left:15%;
+    animation-name: twinkle-34;
+    animation-duration: 4s;
+  }
+  .star-35 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 360px;
+    left: 25%;
+    animation-name: twinkle-35;
+    animation-duration: 6s;
+  }
+
+  .star-36 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 460px; ;
+    left:35%;
+    animation-name: twinkle-36;
+    animation-duration: 8s;
+  }
+  .star-37 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 70px;
+    left:65%;
+    animation-name: twinkle-37;
+    animation-duration:10s;
+  }
+
+  .star-38 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom:170px;
+    left:75%;
+    animation-name: twinkle-38;
+    animation-duration: 0s;
+  }
+  .star-39 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 270px;
+    left:85%;
+    animation-name: twinkle-39;
+    animation-duration: 2s;
+  }
+
+  .star-40 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 370px;
+    left: 50%;
+    animation-name: twinkle-40;
+    animation-duration: 4s;
+  }
+  .star-41 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 470px;
+    left: 40%;
+    animation-name: twinkle-41;
+    animation-duration: 6s;
+  }
+
+  .star-42 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 80px;
+    left: 20%;
+    animation-name: twinkle-42;
+    animation-duration: 8s;
+  }
+  .star-43 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 180px;
+    left: 60%;
+    animation-name: twinkle-43;
+    animation-duration:10s;
+  }
+
+  .star-44 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 280px;
+    left:80%;
+    animation-name: twinkle-44;
+    animation-duration: 0s;
+  }
+  .star-45 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 380px;
+    left: 99%;
+    animation-name: twinkle-45;
+    animation-duration: 2s;
+  }
+
+  .star-46 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 480px;
+    left:-20%;
+    animation-name: twinkle-46;
+    animation-duration: 4s;
+  }
+  .star-47 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 90px;
+    left:-40%;
+    animation-name: twinkle-47;
+    animation-duration: 6s;
+  }
+
+  .star-48 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 190px;
+    left:-60%;
+    animation-name: twinkle-48;
+    animation-duration: 8s;
+  }
+  .star-49 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 290px;
+    left:-80%;
+    animation-name: twinkle-49;
+    animation-duration:10s;
+  }
+
+  .star-50 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 390px;
+    left:-99%;
+    animation-name: twinkle-50;
+    animation-duration: 1s;
+  }
+   @keyframes twinkle-1 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-2 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+
+  }
+
+  @keyframes twinkle-3 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-4 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-5 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-6 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-7 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-8 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-9 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-10 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-11 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-12 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-13 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-14 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-15 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-16 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-17 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-18 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-19 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-20 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-21 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-22 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-23 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-24 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-25 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-26 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-27 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-28 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-29 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-30 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-31 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-32{
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-33 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-34 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-35 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-36 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-37 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-38 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-39 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-40{
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-41 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-42 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-43 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-44 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-45 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-46 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-47 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-48 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-49 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+   @keyframes twinkle-50 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
